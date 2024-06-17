@@ -1,0 +1,16 @@
+INSTRUCTION:
+Check if the user's prompt is related to data analysis from
+the following sources:
+1. SQL databases
+2. Manual files (i.e. pdf, csv, spreadsheet, images of graph)
+3. Dashboards
+
+RESPONSE:
+{'is_relevant': [True if the prompt is related,
+                False (Boolean) otherwise],
+'topic': "[insert topic]",
+'reason': "[insert a short reason]"}
+```
+
+ADDITIONAL INSTRUCTIONS:
+1. Do not lowercase True/False.
